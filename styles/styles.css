@@ -1,0 +1,101 @@
+*, 
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: slateblue;
+    color: white;
+}
+.logo-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.hero-section {
+    background-image: url(../assets/michelle_designs8.jpg);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    box-shadow: inset 0 0 0 2000px rgba(98, 104, 148, 0.6);
+    background-size: cover;
+}
+.hero-content {
+    text-align: center;
+}
+ul li {
+    list-style: none;
+    text-align: left;
+    text-align: center;
+    /* padding-left: 0; */
+}
+button {
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 10px;
+}
+.cost {
+    background: rgb(197, 7, 245);
+    padding: 10px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    color: rgb(240, 234, 234);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.choose-us {
+    background: gray;
+    padding: 10px;
+    text-align: center;
+}
+.design-img{
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+}
+.choose-us h5 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.categories {
+    display: flex;
+    /* flex-direction: column; */
+}
+.course-category {
+    color: blue;
+    background-color: rgb(244, 252, 252);
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.course-category h4 {
+    background: rgb(240, 12, 12);
+    padding: 10px;
+    width: fit-content;
+    color: white;
+    border-radius: 8px;
+}
+
+
+@media (max-width: 800px) {
+    .hero-section {
+        height: 600px;
+    }
+    .categories {
+        display: flex;
+        flex-direction: column;
+    }
+}
