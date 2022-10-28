@@ -7,7 +7,7 @@
 }
 body {
     height: 100vh;
-    background: rgb(37, 29, 88);
+    /* background: rgb(37, 29, 88); */
     color: white;
 }
 .logo-img {
@@ -44,13 +44,14 @@ button a {
     color: rgb(8, 8, 97);
 }
 .cost {
-    background: rgb(197, 7, 245);
+    background: rgb(59, 7, 245);
     padding: 10px;
     margin-bottom: 0;
     border-radius: 5px;
     color: rgb(240, 234, 234);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    border: 0;
 }
 .choose-us {
     background: gray;
@@ -68,14 +69,16 @@ button a {
 }
 h3 {
     text-align: center;
+    color: gray;
+    padding: 10px;
 }
 .categories {
     display: flex;
     /* flex-direction: column; */
 }
 .course-category {
-    color: blue;
-    background-color: rgb(244, 252, 252);
+    color: white;
+    background-color: rgb(30, 163, 187);
     border-radius: 10px;
     margin: 10px;
     padding-top: 10px;
@@ -87,8 +90,8 @@ h3 {
     width: 32%;
 }
 .course-category h4 {
-    border: 1px solid rgb(240, 12, 12);
-    color: blue;
+    border: 1px solid white;
+    color: rgb(0, 255, 13);
     padding: 10px 20px;
     width: fit-content;
     /* color: white; */
@@ -102,7 +105,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background: rgb(42, 43, 42);
+    background: rgb(30, 163, 187);
     margin: 10px;
     border-radius: 10px;
 }
@@ -113,11 +116,9 @@ h3 {
     justify-content: center;
 }
 .enroll h4 {
-    border: 1px solid rgb(12, 16, 240);
-    /* color: blue; */
+    border: 1px solid rgb(6, 89, 243);
     padding: 10px 20px;
     width: fit-content;
-    /* color: white; */
     border-radius: 8px;
 }
 .enroll ul li {
@@ -126,8 +127,9 @@ h3 {
     list-style: disc;
 }
 .social-details {
-    font-size: 1.1rem;
-    color: rgb(42, 5, 252);
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(57, 19, 226);
 }
 .socials {
     font-size: 1.3rem;
