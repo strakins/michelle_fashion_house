@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;700&display=swap');
+
 *, 
 ::before,
 ::after {
@@ -7,6 +9,7 @@
 }
 body {
     height: 100vh;
+    font-family: 'Roboto Slab', serif;
     /* background: rgb(37, 29, 88); */
     color: white;
 }
@@ -32,7 +35,6 @@ body {
 ul li {
     list-style: none;
     text-align: left;
-    text-align: center;
     /* padding-left: 0; */
 }
 button {
@@ -57,6 +59,12 @@ button a {
     background: gray;
     padding: 10px;
     text-align: center;
+    font-size: 1.3rem;
+}
+.choose-content {
+    font-size: 1rem;
+    padding: 12px;
+    line-height: 0.5em;
 }
 .design-img{
     width: 350px;
@@ -69,8 +77,11 @@ button a {
 }
 h3 {
     text-align: center;
-    color: gray;
+    font-size: 2rem;
+    color: white;
+    margin-top: 20px;
     padding: 10px;
+    background: rgb(30, 163, 187);
 }
 .categories {
     display: flex;
@@ -118,7 +129,7 @@ h3 {
     justify-content: center;
 }
 .enroll h4 {
-    border: 1px solid rgb(6, 89, 243);
+    border: 2px solid rgb(6, 89, 243);
     padding: 10px 20px;
     width: fit-content;
     border-radius: 8px;
@@ -131,7 +142,8 @@ h3 {
 .social-details {
     text-align: center;
     font-size: 1rem;
-    color: rgb(57, 19, 226);
+    color: blue;
+    font-weight: 700;
 }
 .socials {
     font-size: 1.3rem;
@@ -170,6 +182,14 @@ h3 {
     .categories {
         display: flex;
         flex-direction: column;
+    }
+    .choose-content {
+        font-size: 0.8rem;
+        padding: 12px;
+        line-height: 0.5em;
+    }
+    h3 {
+        font-size: 1.2rem;
     }
     .course-category {
         width: auto;
