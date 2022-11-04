@@ -41,7 +41,21 @@ button {
     padding: 10px 20px;
     border: 0;
     border-top-left-radius: 10px;
+    /* position: relative; */
+    /* animation: beat 4s infinite; */
 }
+/* @keyframes bounce {
+    0%,
+
+    100% {top: 0;}
+
+    30% {top: 20px;} 
+
+    50% {top: 10px;} 
+
+    80% {top: 20px}
+
+} */
 button a {
     color: rgb(8, 8, 97);
 }
@@ -64,7 +78,10 @@ button a {
 .choose-content {
     font-size: 1rem;
     padding: 12px;
-    line-height: 0.5em;
+}
+p{
+    line-height: 1.2rem;
+    letter-spacing: 0.5px;
 }
 .design-img{
     width: 350px;
@@ -102,12 +119,18 @@ h3 {
     width: 32%;
 }
 .course-category h4 {
+    font-weight: 700;
     border: 1px solid white;
-    color: rgb(70, 7, 243);
-    padding: 10px 20px;
+    color: rgb(14, 13, 13);
+    padding: 10px 30px;
     width: fit-content;
-    /* color: white; */
     border-radius: 8px;
+}
+.duration {
+    display: block;
+    font-size: 0.8rem;
+    color: white;
+    margin-top: 10px;
 }
 .course-category ul li {
     text-align: left;
